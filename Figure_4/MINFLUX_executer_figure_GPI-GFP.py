@@ -14,6 +14,7 @@ loc_array_tracklet = mfa.tracklet_splitter(array_raw, 10, path)
 [msd_all, diffusion_array] = mfa.msd_calculater(loc_array_tracklet, 1, 5, 0, 50, path)
 
 mfa.tracklet_diffusion(loc_array_tracklet, diffusion_array, path)
+print("blabla")
 
 #print(np.loc_array[:, 5])
 
