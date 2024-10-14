@@ -4,6 +4,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.cm as cm
 
 
+test
 
 '''
 Tracklet splitter function:
@@ -556,3 +557,4 @@ def hist_plotter(msd_all, diffusion_array, tracklet_max, font_family, font_size,
             n.savefig(path + '/plot_' + str(n.axes[0].get_title()) + '.pdf', bbox_inches = "tight")
 
     return fig_list
+
